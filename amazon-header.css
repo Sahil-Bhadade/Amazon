@@ -1,0 +1,237 @@
+body {
+	margin: 0 auto;
+	padding-bottom: 3000px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: black;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+}
+
+.left-section {
+	display: flex;
+	align-items: center;
+	color: white;
+	width: 335px;
+	margin-left: 15px;
+}
+
+.Amazon-logo {
+	height: 38px;
+	width: 105px;
+	position: relative;
+	top: 5px;
+}
+
+.in {
+	font-family: Roboto , Arial;
+	font-size: 17px;
+}
+
+.delivery-address {
+	color: white;
+	margin-left: 30px;
+	width: 160px;
+	line-height: 14px;
+}
+
+.delivery-upper {
+	font-family: Roboto , Arial;
+	color: lightgrey;
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+.delivery-lower {
+	font-family: Roboto , Arial;
+	font-size: 14px;
+}
+
+.delivery-lower-btn {
+	border: none;
+	background-color: black;
+	color: white;
+	align-items: left;
+	cursor: pointer;
+}
+
+.delivery-lower-btn:hover {
+	border: 1px solid lightgrey;
+}
+
+.mid-section{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	color: white;
+	width: 100%;
+
+}
+
+.categories {
+	width: 120px;
+	height: 41px;
+	color: rgba(95,95,95);
+	text-indent: 6px;
+	background-color: rgba(229,229,229);
+	border: lightgrey;
+	border-right: none;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+option {
+	font-family: Roboto, Arial;
+	text-align: left;
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	scroll-behavior: smooth;
+}
+
+option:hover {
+	background-color: rgba(19,95,234);
+}
+
+.search-bar {
+	width: 100%;
+	height: 37px;
+	border: 1px solid lightgrey;
+	text-indent: 10px;
+	border-right: none;
+	font-size: 15px;
+}
+
+.search-pic {
+	height: 25px;
+	width: 25px;
+}
+
+.search-pic-btn {
+	height: 41px;
+	width: 43px;
+	background-color: rgba(255,192,130);
+	border: none;
+	border: 1px solid rgba(255,192,130);
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-right: 15px;
+	cursor: text;
+}
+
+.right-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	min-width: 380px;
+	margin-right: 20px;
+}
+
+.lang {
+	width: 62px;
+	font-family: Roboto , Arial;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.lang:hover {
+	background-color: rgba(229,229,229);
+}
+
+.account {
+	width: 130px;
+	line-height: 15px;
+}
+
+.account-upper {
+	font-family: Roboto , Arial;
+	color: lightgrey;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.account-lower {
+	font-family: Roboto , Arial;
+	font-size: 15px;	
+}
+
+.account-lower-btn {
+	border: none;
+	background-color: black;
+	color: white;
+	align-items: left;
+	cursor: pointer;
+}
+
+.account-lower-btn:hover {
+	border: 1px solid lightgrey;
+}
+
+.return {
+	width:80px;
+	line-height: 15px;
+}
+
+.return-upper {
+	font-family: Roboto , Arial;
+	color: lightgrey;
+	font-size: 12px;
+	margin-left: 5px;
+	padding-right: 8px;
+}
+
+.return-lower {
+	font-family: Roboto , Arial;
+	font-size: 15px;	
+}
+
+.return-lower-btn {
+	border: none;
+	background-color: black;
+	color: white;
+	align-items: left;
+	cursor: pointer;
+}
+
+.return-lower-btn:hover {
+	border: 1px solid lightgrey;
+}
+
+.cart-btn {
+	width: 60px;
+	height: 30spx;
+	font-size: 20px;
+}
+
+.cart-no {
+	width: 23px;
+	height: 21px;
+	font-size: 18px;
+	text-align: center;
+	font-family: Roboto , Arial;
+	background-color: rgba(255,120,105);
+	border-radius: 25px;
+	color: white;
+	position: absolute;
+	top: 3px;
+	right: 13px;
+}
+
+.cart-btn:hover {
+	background-color: rgba(260,260,260);
+	cursor: pointer;
+}

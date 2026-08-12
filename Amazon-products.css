@@ -1,0 +1,232 @@
+.top-bar {
+	padding: 60px 0px 0px 290px;
+	line-height: 24px;
+	height: 70px;
+}
+
+.text-1 {
+	padding-top: 15px;
+	color: black;
+	font-size: 19px;
+	font-family: Roboto,Arial;
+}
+
+.text-2 {
+	font-family: Corbel Light;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	color: rgba(100,100,100);
+}
+
+.products {
+	display: grid;
+	flex: 1;
+	grid-template-columns: repeat(4 , 1fr);
+    row-gap: 15px;
+    column-gap: 10px;
+	padding: 8px 8px 0px 280px;
+}
+
+@media (max-width: 1000px) {
+	.products {
+		grid-template-columns: repeat(3 , 1fr);
+		padding: 8px;
+	}
+}
+
+@media (max-width: 700px) {
+	.products {
+		grid-template-columns: repeat(2 , 1fr);
+		padding: 8px;
+	}
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4,
+.product-5 {
+	display: block;
+	width: auto;
+	border: 0.1px solid rgb(240, 240, 240);
+	text-align: center;
+	padding: 8px 8px 1px 8px;
+	line-height: 23px;
+}
+
+
+.product-detail {
+	height: 90px;
+	font-size: 15.5px;
+	font-family: Amazon Ember, Arial,san-serif;
+	text-align: left;
+	padding: 0px 5px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+
+.product-rating {
+	height: 20px;
+	padding: 3px 20px 2px 8px;
+	font-family: Amazon Ember, Arial,san-serif;
+	text-align: left;
+	font-size: 12px;
+	word-spacing: 50px;
+}
+
+.product-price {
+	height: ;
+	text-align: left;
+	font-family: Amazon Ember, Arial,san-serif;
+	padding: 6px 3px 0px 3px;
+	font-size: 27.5px;
+	line-height: 18px;
+}
+
+.rupee-symbol {
+	font-size: 15px;
+	vertical-align: 8px;
+}
+
+.product-OG-price-discount {
+	font-size: 14px;
+	font-family: Amazon Ember, Arial,san-serif;
+}
+
+.OG-price {
+	text-decoration: line-through;
+}
+
+.product-offer {
+	text-align: left;
+	font-family: Amazon Ember, Arial,san-serif;
+	font-size: 14px;
+	padding-left: 3px;
+	width: 234px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.highlight-green {
+	background-color: rgb(100, 255, 139);
+	border-radius: 1px;
+	padding: 2px 4px;
+}
+
+.product-delivery-details {
+	text-align: left;
+	font-family: Amazon Ember, Arial,san-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 4px;
+	padding-right: 0px;
+	padding-left: 3px;
+}
+
+.service {
+	text-align: left;
+	font-family: Amazon Ember, Arial,san-serif;
+	font-size: 14px;
+	padding-left: 3px;
+}
+
+.add-to-cart {
+	padding: 10px 2px;
+}
+
+.add-to-cart-btn {
+	font-weight: 500;
+	font-family: Roboto , Arial;
+	align-items: center;
+	width: 237px;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+	background-color: rgb(255, 213, 114);
+}
+
+.add-to-cart-btn:hover {
+	background-color: rgb(239, 191, 101);
+	border: 0.5px solid gray;
+	cursor: pointer;
+}
+
+.Hindware-Chimney {
+	width: 234.39px;
+	height: 234.39px;
+	padding-bottom: 4px;
+}
+
+.IFB-Dryer {
+	width: 210.39px;
+	height: 234.39px;
+	padding-bottom: 4px;
+}
+
+.LG-Washing-Machine {
+	width: 210.39px;
+	height: 234.39px;
+	padding-bottom: 4px;
+}
+
+.Bosch-Dishwasher {
+	width: 210.39px;
+	height: 234.39px;
+	padding-bottom: 4px;
+}
+
+.Godrej-Qube {
+	width: 234.39px;
+	height: 234.39px;
+	padding-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
